@@ -16,9 +16,12 @@ import org.junit.jupiter.api.Test;
         }
         @Test
         void searchTest () {
-        open("https://www.google.com/");
-        $("[name=q]").setValue("selenide").pressEnter();
-        $("[id=search]").shouldHave(text("https://ru.selenide.org"));
-        //conflict2
+            open("https://www.google.com/");
+            $("[name=q]").setValue("selenide").pressEnter();
+            $("[id=search]").shouldHave(text("https://ru.selenide.org"));
+        }
+        @Test
+            void serchTest2 () {
+            open("https://github.com");
         }
         }
