@@ -20,4 +20,6 @@ import org.junit.jupiter.api.Test;
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://ru.selenide.org"));
         }
+        //отличается строка
+     //отличается строка
         }
