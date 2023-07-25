@@ -24,4 +24,6 @@ import org.junit.jupiter.api.Test;
             void serchTest2 () {
             open("https://github.com");
         }
+        //отличается строка
+     //отличается строка
         }
