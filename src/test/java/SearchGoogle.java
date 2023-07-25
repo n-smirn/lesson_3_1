@@ -21,4 +21,7 @@ import org.junit.jupiter.api.Test;
         $("[id=search]").shouldHave(text("https://ru.selenide.org"));
         //conflict1
         }
+        @Test
+        void searchTest_YA (){open(("https://www.ya.ru/"));}
+
         }
