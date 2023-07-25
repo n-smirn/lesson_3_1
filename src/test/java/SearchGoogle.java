@@ -24,4 +24,7 @@ import org.junit.jupiter.api.Test;
             void serchTest2 () {
             open("https://github.com");
         }
+        @Test
+        void searchTest_YA (){open(("https://www.ya.ru/"));}
+
         }
